@@ -45,6 +45,7 @@ print(result_find_a_phone_number)
 print("---------------------------")
 print(result_find_a_phone_number1)
 # Iterable
+
 result_find_inter_a_phone_number = re.finditer(phone_pattern, more_difficult_text)
 for i in result_find_inter_a_phone_number:
     print(i)
